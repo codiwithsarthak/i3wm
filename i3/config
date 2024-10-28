@@ -192,3 +192,6 @@ exec --no-startup-id picom
 
 # dual monitor setup
 exec_always --no-startup-id xrandr --output HDMI-1 --auto --right-of eDP-1
+
+# auto tiling
+exec_always --no-startup-id i3-auto-tiling
